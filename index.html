@@ -103,7 +103,38 @@
         });
     </script>
 </body>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转按钮示例</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1vh; /* 使内容垂直居中 */
+            background-color: #f0f0f0; /* 背景颜色 */
+            margin: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px; /* 按钮内边距 */
+            font-size: 16px; /* 字体大小 */
+            color: white; /* 字体颜色 */
+            background-color: #007BFF; /* 按钮背景颜色 */
+            border: none; /* 去掉边框 */
+            border-radius: 5px; /* 圆角 */
+            text-decoration: none; /* 去掉下划线 */
+            transition: background-color 0.3s; /* 添加过渡效果 */
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+        }
+    </style>
+</head>
+<body>
     <a href="https://hygge-089.github.io/hygge/1" class="button" target="_blank">点击跳转</a>
 </body>
 </html>
