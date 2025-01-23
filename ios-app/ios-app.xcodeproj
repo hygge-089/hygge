@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <object id="PBXProject" class="PBXProject" objectVersion="46">
+        <name>ios-app</name>
+        <mainGroup>GROUP_1</mainGroup>
+        <compatibilityVersion>Xcode 14.0</compatibilityVersion>
+        <minimumBaseSDK>iphoneos14.0</minimumBaseSDK>
+        <targets>
+            <target>ios-app</target>
+        </targets>
+    </object>
+    <object id="GROUP_1" class="PBXGroup" name="ios-app" path="ios-app">
+        <children>
+            <object id="PBXFileReference" name="AppDelegate.swift" path="AppDelegate.swift" sourceTree="<group>"/>
+            <object id="PBXFileReference" name="SceneDelegate.swift" path="SceneDelegate.swift" sourceTree="<group>"/>
+            <object id="PBXFileReference" name="ViewController.swift" path="ViewController.swift" sourceTree="<group>"/>
+            <object id="PBXGroup" name="Models" path="Models">
+                <children>
+                    <object id="PBXFileReference" name="PenStroke.swift" path="Models/PenStroke.swift" sourceTree="<group>"/>
+                </children>
+            </object>
+            <object id="PBXGroup" name="Views" path="Views">
+                <children>
+                    <object id="PBXFileReference" name="DrawingView.swift" path="Views/DrawingView.swift" sourceTree="<group>"/>
+                </children>
+            </object>
+            <object id="PBXGroup" name="Controllers" path="Controllers">
+                <children>
+                    <object id="PBXFileReference" name="DrawingViewController.swift" path="Controllers/DrawingViewController.swift" sourceTree="<group>"/>
+                </children>
+            </object>
+            <object id="PBXGroup" name="Resources" path="Resources">
+                <children>
+                    <object id="PBXFileReference" name="Assets.xcassets" path="Resources/Assets.xcassets" sourceTree="<group>"/>
+                </children>
+            </object>
+        </children>
+    </object>
+    <object id="TARGET_1" class="PBXNativeTarget" name="ios-app" productType="com.apple.product-type.application">
+        <buildConfigurationList>CONFIGURATION_LIST_1</buildConfigurationList>
+        <buildPhases>
+            <buildPhase>PBXSourcesBuildPhase</buildPhase>
+        </buildPhases>
+    </object>
+    <object id="CONFIGURATION_LIST_1" class="XCConfigurationList" defaultConfigurationName="Debug">
+        <buildConfigurations>
+            <object id="Debug" class="XCBuildConfiguration" name="Debug">
+                <baseConfigurationReference>CONFIGURATION_FILE_1</baseConfigurationReference>
+            </object>
+            <object id="Release" class="XCBuildConfiguration" name="Release">
+                <baseConfigurationReference>CONFIGURATION_FILE_2</baseConfigurationReference>
+            </object>
+        </buildConfigurations>
+    </object>
+    <object id="CONFIGURATION_FILE_1" class="XCFileReference" name="Debug.xcconfig" path="Debug.xcconfig" sourceTree="<group>"/>
+    <object id="CONFIGURATION_FILE_2" class="XCFileReference" name="Release.xcconfig" path="Release.xcconfig" sourceTree="<group>"/>
+</project>
